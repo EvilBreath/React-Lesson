@@ -1,0 +1,26 @@
+.btn {
+	background: #3858FF;
+	border-radius: 2px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 16px;
+	color: #FCFCFC;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	border: none;
+	padding: 16px 115px;
+	width: 350px;
+}
+
+.btn:hover {
+	background: #3858FF;
+	box-shadow: 0px 25px 35px rgba(56, 88, 255, 0.2);
+	border-radius: 2px;
+}
+
+.active-button {
+	background: #3858FF;
+	box-shadow: 0px 25px 35px rgba(56, 88, 255, 0.2);
+	border-radius: 2px;
+}

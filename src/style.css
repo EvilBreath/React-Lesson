@@ -1,0 +1,122 @@
+/*vars*/
+:root {
+	--color-menu-border: #3858ff;
+	--color-menu-text-default: #a8adba;
+	--color-menu-text-active: #08163a;
+	--color-nav-back-default: #a8adba;
+	--color-nav-back-dark: #fcfcfc;
+	--color-content-box: #ffffff;
+	--color-content-text: #29283e;
+	--color-select: #f6f6f8;
+	--color-item-name: #08163A;
+	--color-item-about: #5E677F;
+	--color-filter-select: #08163A;
+	--color-articles-list: #5E677F;
+}
+
+/* normilize */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	max-height: 100%;
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	background: #e5e5e5;
+	font-size: 16px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	width: 1440px;
+}
+
+.drinkContainer {
+	margin: 0 auto;
+}
+
+.cont {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+.nameMenu {
+	margin-top: 20px;
+}
+
+
+.drinkArticles {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 5px;
+	width: 1440px;
+	margin-top: 20px;
+  }
+  
+  .drinkArticle {
+	margin: 10px 10px 60px 10px;
+	background-color: rgb(180, 175, 175);
+	text-align: center;
+	border-radius: 5px;
+	padding-top: 5px;
+  }
+
+  .drinkArticle img {
+	width: 100%;
+	height: 100%;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+  }
+
+  .drinkName {
+	height: 50px;
+  }
+
+  .drinkImg {
+
+  }
+
+  .btnDrinks {
+	background: #3858FF;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 16px;
+	color: #FCFCFC;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	border: none;
+	padding: 16px 20px;
+	width: 220px;
+	border-radius: 10px;
+  }
+
+  .btnDrinks a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 26px;
+  }
+
+  .btnDrinks:hover {
+	background: #3858FF;
+	box-shadow: 0px 25px 35px rgba(56, 88, 255, 0.2);
+	border-radius: 10px;
+}
+
+.active-button {
+	background: #3858FF;
+	box-shadow: 0px 25px 35px rgba(56, 88, 255, 0.2);
+	border-radius: 10px;
+}

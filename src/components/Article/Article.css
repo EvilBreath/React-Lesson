@@ -1,0 +1,241 @@
+
+
+:root {
+	--color-menu-border: #3858ff;
+	--color-menu-text-default: #a8adba;
+	--color-menu-text-active: #08163a;
+	--color-nav-back-default: #a8adba;
+	--color-nav-back-dark: #fcfcfc;
+	--color-content-box: #ffffff;
+	--color-content-text: #29283e;
+	--color-select: #f6f6f8;
+	--color-item-name: #08163A;
+	--color-item-about: #5E677F;
+	--color-filter-select: #08163A;
+	--color-articles-list: #5E677F;
+}
+
+.articles-list-items {
+	margin-bottom: 40px;
+}
+
+.articles-list-items:hover {
+	background: #3858FF;
+	box-shadow: 0px 10px 25px rgba(8, 22, 58, 0.1);
+	border-radius: 2px;
+}
+
+.article-active {
+	background: #3858FF;
+	box-shadow: 0px 10px 25px rgba(8, 22, 58, 0.1);
+	border-radius: 2px;
+}
+
+.aritcles-product{
+	text-decoration: none;
+}
+
+.aritcles-product {
+	width: 290px;
+	height: 500px;
+	background: #FCFCFC;
+	border: 1px solid #E4E3E9;
+	box-sizing: border-box;
+	border-radius: 2px;
+	display: block;
+}
+
+.product-image {
+	width: 290px;
+	height: 290px;
+	border-radius: 2px;
+	margin: -1px;
+}
+
+.rating-star-articles {
+    background-image: url(/React-Lesson/src/img/active-star.svg);
+	width: 14px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 0;
+	display: inline-block;
+    margin-bottom: -3.5px;
+}
+
+.active-star-articles {
+	background-image: url(/React-Lesson/src/img/active-star-articles.svg);
+	width: 14px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 0;
+	display: inline-block;
+    margin-bottom: -3.5px;
+}
+
+.article-info-articles {
+	margin-left: 24px;
+	align-items: center;
+	display: flex;
+	font-size: 0.7em;
+    margin-top: 10px;
+}
+
+.article-info-articles {
+	margin-left: 24px;
+	align-items: center;
+	display: flex;
+	font-size: 0.7em;
+}
+
+.item-about p{
+	font-size: 16px;
+	line-height: 28px;
+	color: var(--color-item-about);
+	opacity: 0.65;
+	text-align: left;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.list-items-box {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+	width: 1000px;
+	margin-top: 20px;
+}
+
+.item-name h3 {
+	text-align: left;
+	margin-left: 24px;
+	color: var(--color-item-name);
+    margin-top: 10px;
+}
+
+.article-status {
+	color: #08163A;;
+}
+
+.article {
+	background: #F6F6F8;
+	height: 1624px;
+}
+.article-header {
+	background-image: url(/React-Lesson/src/img/flowersarticle.png);
+	color: white;
+}
+
+.breadcrumbs{
+	padding: 24px 0;
+}
+.link-back{
+	color: var(--color-nav-back-default);
+	text-decoration: none !important;
+}
+.link-back.link-back-dark {
+	color: var(--color-nav-back-dark);
+}
+.link-back::before {
+  	content: "";
+  	width: 15.2px;
+	height: 11.6px;
+	margin-right: 8px;
+	background-image: url(/React-Lesson/src/img/icon-arrow.svg);
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+.article-info {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 0.7em;
+	padding-bottom: 50px;
+}
+
+
+.article-title {
+	text-align: center;
+	align-items: center;
+	font-size: 1.5em;
+}
+
+.article-title h1 {
+	margin-bottom: 0;
+}
+.article-rating li {
+	display: inline-block;
+}
+
+.rating-star {
+	background-image: url(/React-Lesson/src/img/star.svg);
+	width: 14px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 0;
+	display: inline-block;
+}
+
+.active-star {
+	background-image: url(/React-Lesson/src/img/active-star.svg);
+	width: 14px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 0;
+	display: inline-block;
+}
+
+.article-content-box {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    justify-content: center;
+    background-color: var(--color-content-box);
+    border: 1px solid #E4E3E9;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding: 0.5em 3em 0 3em;
+    text-indent: 1.5em;
+}
+
+.article-content-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	color:  var(--color-content-text);
+	opacity: 0.65;
+}
+
+.level-color {
+	color: #5E677F;
+	opacity: 0.65;
+}
+
+.homePage {
+	background-image: url(/React-Lesson/src/img/space.jpeg);
+	width: 1440px;
+	height: 900px;
+}
+
+.homeContainer {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	margin-top: 300px;
+}
+
+.menuContainer {
+	text-align: center;
+	margin: 0 auto;
+}

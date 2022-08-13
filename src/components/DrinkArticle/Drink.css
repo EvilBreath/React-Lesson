@@ -1,0 +1,85 @@
+
+
+:root {
+	--color-menu-border: #3858ff;
+	--color-menu-text-default: #a8adba;
+	--color-menu-text-active: #08163a;
+	--color-nav-back-default: #a8adba;
+	--color-nav-back-dark: #fcfcfc;
+	--color-content-box: #ffffff;
+	--color-content-text: #29283e;
+	--color-select: #f6f6f8;
+	--color-item-name: #08163A;
+	--color-item-about: #5E677F;
+	--color-filter-select: #08163A;
+	--color-articles-list: #5E677F;
+}
+
+.drinks-list-items {
+	margin-bottom: 40px;
+}
+
+.drinks-list-items:hover {
+	background: #3858FF;
+	box-shadow: 0px 10px 25px rgba(8, 22, 58, 0.1);
+	border-radius: 2px;
+}
+
+.drink-active {
+	background: #3858FF;
+	box-shadow: 0px 10px 25px rgba(8, 22, 58, 0.1);
+	border-radius: 2px;
+}
+
+.drinks-product{
+	text-decoration: none;
+}
+
+.drinks-product {
+	width: 290px;
+	height: 350px;
+	background: #FCFCFC;
+	box-sizing: border-box;
+	border-radius: 2px;
+	display: block;
+}
+
+.drink-image {
+	width: 290px;
+	height: 290px;
+	border-radius: 5px;
+}
+
+.drink-image img {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.drink-info-articles {
+	margin-left: 24px;
+	align-items: center;
+	display: flex;
+	font-size: 0.7em;
+    margin-top: 10px;
+}
+
+.drink-items-box {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+	width: 1000px;
+	margin-top: 20px;
+}
+
+.drink-name h3 {
+	text-align: left;
+	margin-left: 24px;
+	color: var(--color-item-name);
+    margin-top: 10px;
+}
+
+.article-status {
+	color: #08163A;;
+}
