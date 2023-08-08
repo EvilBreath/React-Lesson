@@ -14,7 +14,7 @@ function setApi({ url, method, params, data, headers:{} = {}}) {
   })
 }
 
-export async function getListCocktail() {
+export async function getListCocktail () {
   return setApi( {
     url: '/list.php',
     method: 'get',

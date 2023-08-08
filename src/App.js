@@ -11,6 +11,8 @@ import { List } from './screens/Drinks/List/List';
 import { Glasses } from './screens/Drinks/Glasses/Glasses';
 import { Alcoholic } from './screens/Drinks/Alcoholic/Alcoholic';
 import { Ingridient } from './screens/Drinks/Ingridients/Ingridients';
+import NewLine from './screens/NewLine';
+import Footer from './components/Footer/Footer'
 
 
 class App extends React.Component {
@@ -24,6 +26,7 @@ class App extends React.Component {
                 <Route path="menu" element={<Menu />} />
                 <Route path="api" element={<Api />}/>
                 <Route path="lessons" element={<Lessons />}/>
+                <Route path="NewLine" element={<NewLine />}/>
                 
                 {/* Drinks */}
 
@@ -46,6 +49,7 @@ class App extends React.Component {
                 <Route path="drinks/alcohol" element={<Alcoholic />}/>
                 <Route path="drinks/alcohol/:slug" element={<Category />}/>
             </Route>
+            <Route path="/" element={<Footer />}></Route>
           </Routes>
         </>
       );

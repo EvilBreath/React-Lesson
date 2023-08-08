@@ -53,7 +53,7 @@
 }
 
 .rating-star-articles {
-    background-image: url(/React-Lesson/src/img/active-star.svg);
+    background-image: url(/public/img/active-star.svg);
 	width: 14px;
 	height: 14px;
 	background-repeat: no-repeat;
@@ -64,7 +64,7 @@
 }
 
 .active-star-articles {
-	background-image: url(/React-Lesson/src/img/active-star-articles.svg);
+	background-image: url(/public/img/active-star-articles.svg);
 	width: 14px;
 	height: 14px;
 	background-repeat: no-repeat;
@@ -125,7 +125,7 @@
 	height: 1624px;
 }
 .article-header {
-	background-image: url(/React-Lesson/src/img/flowersarticle.png);
+	background-image: url(/public/img/flowersarticle.png);
 	color: white;
 }
 
@@ -144,7 +144,7 @@
   	width: 15.2px;
 	height: 11.6px;
 	margin-right: 8px;
-	background-image: url(/React-Lesson/src/img/icon-arrow.svg);
+	background-image: url(/public/img/icon-arrow.svg);
 	display: inline-block;
 	background-repeat: no-repeat;
 }
@@ -172,7 +172,7 @@
 }
 
 .rating-star {
-	background-image: url(/React-Lesson/src/img/star.svg);
+	background-image: url(/public/img/star.svg);
 	width: 14px;
 	height: 14px;
 	background-repeat: no-repeat;
@@ -182,7 +182,7 @@
 }
 
 .active-star {
-	background-image: url(/React-Lesson/src/img/active-star.svg);
+	background-image: url(/public/img/active-star.svg);
 	width: 14px;
 	height: 14px;
 	background-repeat: no-repeat;
@@ -223,7 +223,7 @@
 }
 
 .homePage {
-	background-image: url(/React-Lesson/src/img/space.jpeg);
+	background-image: url(/public/img/space.jpeg);
 	width: 1440px;
 	height: 900px;
 }
